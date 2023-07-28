@@ -131,6 +131,7 @@ body {
     letter-spacing: 1.5;
     padding: 16px 32px;
     border-radius: 4px;
+    cursor: pointer;
    
 }
 
@@ -257,6 +258,7 @@ body {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 1.5;
+    cursor: pointer;
 }
 
 .portfolio-btn-all:hover, .portfolio-btn-all:focus {
