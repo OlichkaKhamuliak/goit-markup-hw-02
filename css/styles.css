@@ -19,10 +19,10 @@ body {
     color: var(--navy-blue);
     background-color: var(--white);
     font-style: normal;
-    font-weight: regular;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 1.5px;
 }
 
 .link {
@@ -30,7 +30,7 @@ body {
     color: currentColor;
     font-size: 12px;
     line-height: 16px;
-    letter-spacing: 4%;
+    letter-spacing: 1.33px;
 }
 
 .list{
@@ -52,7 +52,7 @@ body {
     font-style: normal;
     font-weight: 800;
     line-height: 21px;
-    letter-spacing: 1.17;
+    letter-spacing: 1.17px;
     text-transform: uppercase;
 }
 
@@ -69,7 +69,7 @@ body {
 .nav-list-item {
     color: var(--navy-blue);
     font-weight: 500;
-    letter-spacing: 1.5;
+    letter-spacing: 1.5px;
 }
 
 .nav-list-link:hover, .nav-list-link:focus {
@@ -81,7 +81,7 @@ body {
 
 .header-address {
      color: var(--slate);
-    letter-spacing: 1.5;
+    letter-spacing: 1.5px;
     font-style: normal;
 }
 
@@ -115,7 +115,7 @@ body {
     font-size: 56px;
     font-weight: 700;
     line-height: 60px;
-    letter-spacing: 1.07;
+    letter-spacing: 1.07px;
 }
     
 .hero-btn {
@@ -128,7 +128,7 @@ body {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
      color: var(--white);
     font-weight: 500;
-    letter-spacing: 1.5;
+    letter-spacing: 1.5px;
     padding: 16px 32px;
     border-radius: 4px;
     
@@ -163,12 +163,12 @@ body {
 .skills-list-subtitle {
     font-size: 20px;
     font-weight: 500;
-    letter-spacing: 1.2;
+    letter-spacing: 1.2px;
 }
 
 .skills-list-desc {
     color: var(--slate);
-    letter-spacing: 1.5;
+    letter-spacing: 1.5px;
 }
 
     /* Products section */
@@ -180,7 +180,7 @@ body {
     font-size: 36px;
     font-weight: 700;
     line-height: 40px;
-    letter-spacing: 1.11;
+    letter-spacing: 1.11px;
     text-transform: capitalize;
 }
 
@@ -199,7 +199,7 @@ body {
     font-size: 36px;
     font-weight: 700;
     line-height: 40px;
-    letter-spacing: 1.11;
+    letter-spacing: 1.11px;
     text-transform: capitalize;
 }
 
@@ -223,13 +223,13 @@ body {
     text-align: center;
     font-size: 20px;
     font-weight: 500;
-    letter-spacing: 1.2;
+    letter-spacing: 1.2px;
 }
 
 .team-list-desc {
     color: var(--slate);
     text-align: center;
-    letter-spacing: 1.5;
+    letter-spacing: 1.5px;
 }
 
 /* PORTFOLIO */
@@ -258,7 +258,7 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 1.5;
+    letter-spacing: 1.5px;
 }
 
 .portfolio-btn-all:hover, .portfolio-btn-all:focus {
@@ -321,12 +321,12 @@ body {
         font-size: 20px;
         font-weight: 500;
         line-height: 24px;
-        letter-spacing: 1.2;
+        letter-spacing: 1.2px;
 }
 
 .portfolio-list-desc {
     color: var(--slate);
-        letter-spacing: 1.5;
+        letter-spacing: 1.5px;
 }
 
 /* FOOTER */
@@ -340,5 +340,5 @@ body {
 .footer-desc {
     width: 264px;
     color: var(--cloud);
-        letter-spacing: 1.5;
+        letter-spacing: 1.5px;
 }
