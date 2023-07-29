@@ -16,7 +16,7 @@
 /* Base styles */
 body {
     font-family: "Roboto", sans-serif;
-    color: var(--slate);
+    color: #434455;
     background-color: var(--white);
     font-style: normal;
     font-weight: 400;
@@ -26,9 +26,6 @@ body {
 .link {
     text-decoration: none;
     color: currentColor;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 1.33px;
 }
 
 .list{
@@ -66,7 +63,7 @@ body {
 .nav-list {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
     color: var(--navy-blue);
     font-weight: 500;
 }
@@ -101,12 +98,10 @@ body {
 
 .hero-section {
     background-color: var(--navy-blue);
-    flex-shrink: 0;
 }
     
 .hero-title {
     color: var(--white);
-    text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -115,7 +110,6 @@ body {
     
 .hero-btn {
     background: var(--iris);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: var(--white);
     font-weight: 500;
     line-height: 1.5;
@@ -160,7 +154,6 @@ body {
 .products-section {}
 
 .products-title {
-    text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -181,7 +174,6 @@ body {
 }
 
 .team-title {
-    text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -198,7 +190,6 @@ body {
 .team-list-img {}
 
 .team-list-subtitle {
-    text-align: center;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -207,7 +198,6 @@ body {
 
 .team-list-desc {
     color: var(--slate);
-    text-align: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -216,58 +206,51 @@ body {
 
 .portfolio-section {}
 
-    /* Buttons */
+    /* Buttons */ 
 
 .portfolio-btn-list {
     background: var(--white);
 }
 
 .portfolio-btn {
-    background: var(--cloud);
     justify-content: center;
     background: var(--cloud);
-    color: var(--iris);
-    text-align: center;
+    color: var(--iris); 
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 1.5px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .portfolio-btn-all:hover, .portfolio-btn-all:focus {
     background: var(--ocean);
     color: var(--white);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
     cursor: pointer;
 }
 
 .portfolio-btn-site:hover, .portfolio-btn-site:focus {
     background: var(--ocean);
     color: var(--white);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
     cursor: pointer;
 }
 
 .portfolio-btn-app:hover, .portfolio-btn-app:focus {
     background: var(--ocean);
     color: var(--white);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
     cursor: pointer;
 }
 
 .portfolio-btn-design:hover, .portfolio-btn-design:focus {
     background: var(--ocean);
     color: var(--white);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
     cursor: pointer;
 }
 
 .portfolio-btn-marketing:hover, .portfolio-btn-marketing:focus {
     background: var(--ocean);
     color: var(--white);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
     cursor: pointer;
 }
 
@@ -276,7 +259,6 @@ body {
 .portfolio-list {}
 
 .portfolio-list-item {
-    flex-shrink: 0;
     background: var(--white);
 }
 
@@ -287,22 +269,23 @@ body {
 .portfolio-list-title {
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 1.2px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
 }
 
 .portfolio-list-desc {
+    font-size: 16px;
     color: var(--slate);
-    letter-spacing: 1.5px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* FOOTER */
 .footer-section {
     background: var(--navy-blue);
-    flex-shrink: 0;
 }
 
 .footer-desc {
     color: var(--cloud);
-    letter-spacing: 1.5px;
 }
